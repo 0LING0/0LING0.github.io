@@ -1,0 +1,41 @@
+name: 栀子花开
+description: 你若盛开，清风自来
+avatar: https://avatars3.githubusercontent.com/u/20092135?v=3&u=7e171d8a6716070a1ae816c23e1d3cfacdf4fe4f&s=400
+email: chenlinglingyeah@163.com
+github: 0LING0
+disqus: 栀子
+google_analytics:
+url:
+baseurl: ""
+
+permalink: /:title/
+
+
+version: v1.2.0
+
+
+kramdown:
+ 
+  input: GFM
+  
+  syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    # Use existing pygments syntax highlighting css
+    css_class: 'highlight'
+
+# Set the Sass partials directory, as we're using @imports
+sass:
+  style: :expanded # You might prefer to minify using :compressed
+
+# Use the following plug-ins
+gems:
+  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+
+# Exclude these files from your production _site
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - LICENSE
+  - README.md
+  - CNAME
